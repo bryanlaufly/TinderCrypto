@@ -1,0 +1,86 @@
+body{
+    margin: 0 auto;
+    width: 350px;
+    border: 0.2em grey solid;
+    border-radius: 1.5em;
+}
+
+.headerContainer {
+    display:flex;
+    justify-content: space-between;
+    padding: 0.8em;
+}
+
+.headerContainer img {
+    width: 8%;
+    height: auto;
+}
+
+.Profile {
+    position: relative;
+}
+
+#badgelike, #badgenope {
+    width: 8em;
+    position: absolute;
+    transform: rotate(-30deg); 
+    margin-top: 2.5em ;
+    margin-left: 2em;  
+    display: none; 
+}
+
+#Avatar {
+    width: 100%; 
+    border-radius: 0.5em;  
+}
+
+.Profile > h4 {
+    position: absolute;
+    margin: -3em 0.4em;
+    font-weight: 600;
+    font-size: 2rem;
+    color : white;
+}
+
+.Profile > p {
+    position: absolute;
+    margin: -3em 1em;
+    color: orange;
+    font-weight: bold;
+}
+
+.btnContainer {
+    display: flex;
+    width: 9em;
+    justify-content: space-between;
+    padding: 0.8em 0.2em;
+    margin: 0 auto;
+}
+
+button {
+    border-radius: 50%; 
+    border: none;
+    padding : 0.9em;
+    background-repeat: no-repeat;    
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+#crossBtn:hover {
+    background-color: #FFE7EF;
+}
+
+#likeBtn:hover{
+    background-color: #DBFFF4;
+}
+
+.clickIcon {
+    width: 1.3em;
+}
+
